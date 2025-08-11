@@ -13,3 +13,9 @@ steps:
 - script: |
     python hello_world.py
   displayName: 'Run Hello World Python Script'
+
+- script: |
+    pip install pytest
+    pytest
+  displayName: 'Run Tests'
+
